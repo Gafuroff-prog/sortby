@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+body{
+    background-color: #212529;
+}
+.container{
+    width: 1400px;
+    
+    margin: 0 auto;
+    text-align: center;
+}
+.text{
+    color: white;
+    margin: 40px 0;
+}
+.controls select{
+    width: 210px;
+    height: 36px;
+    padding-left: 12px;
+    border-radius: 8px;
+}
+.controls input{
+    width: 210px;
+    height: 36px;
+    padding-left: 12px;
+    border-radius: 8px;
+}
+.controls button{
+    width: 210px;
+    height: 36px;
+    border-radius: 8px;
+    background-color: #198754;
+    color: white;
+    border: none;
+}
+.pokemon-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+.card{
+    width: 250px;
+    height: 380px;
+    border-radius: 10px;
+    background-color: yellow;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 20px 0;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="text">Pokémon</h1>
+        <div class="controls">
+            <input type="text" id="searchInput" placeholder="Search your Pokémon" />
+            <select id="filterType">
+                <option value="all">All</option>
+                <option value="Grass Poison">Grass Poison</option>
+                <option value="Fire">Fire</option>
+                <option value="Water">Water</option>
+                <option value="Bug">Bug</option>
+            </select>
+            <select id="sortBy">
+                <option value="alphabeticalAsc"> (A-Z)</option>
+                <option value="alphabeticalDesc"> (Z-A)</option>
+                <option value="weightAsc">Weight (Low to High)</option>
+                <option value="weightDesc">Weight (High to Low)</option>
+            </select>
+            <button id="searchButton">Search</button>
+        </div>
+        <div id="pokemonContainer" class="pokemon-list">
+            <!-- <div class="card">
+                <h3>Bulbasaur</h3>
+                <img src="http://www.serebii.net/pokemongo/pokemon/001.png" alt="">
+                <p>Grass Poison</p>
+                <p>6.9 kg</p>
+            </div> -->
+        </div>
+    </div>
+
+    <script type="module" src="pokemons.js"></script>
+    <script type="module" src="script.js"></script>
+</body>
+</html>
